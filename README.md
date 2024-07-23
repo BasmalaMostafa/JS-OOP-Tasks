@@ -35,10 +35,41 @@ numofCopies
 • you can define any function needed for both box and book objects.
 
 # Task 5:
-) Study new array api methods then create the following methods and apply it on this array
+Study new array api methods then create the following methods and apply it on this array
 var fruits = ["apple", "strawberry", "banana", "orange", "mango"]
 a. test that every element in the given array is a string.
 b. test that some of array elements starts with "a".
 c. generate new array filtered from the given array with only elements that starts with "b" or "s".
 d. generate new array each element of the new array contains a string declaring that you like the give 
 fruit element e. use forEach to display all elements of the new array from previous point.
+
+# Task 6: Using ES6 new Syntax & features:
+Write a script to create different shapes (rectangle, square, circle)
+make all of them inherits from shape class.
+a. each shape contains two functions to calculate its area and its
+parameter.
+b. Display the area and each object parameter in your console by
+overriding toString().
+c. Make your classes in an external file and import them in a module to
+create objects
+
+# Task 7: Proxy:
+create a dynamic object using Proxy such that it has only the following
+properties
+a∙ name property that accepts only string of 7 characters.
+b∙ address property that accepts only string value.
+c∙ age property that accepts numerical value between 25 and 60.
+
+# Task 8: Generator:
+Create a generator that returns fibonacci series that takes only
+one parameter. Make two different implementations as described
+below:
+a. the parameter passed determines the number of elements
+displayed from the series.
+b. the parameter passed determines the max number of the
+displayed series should not exceed its value.
+
+# Task 9: Iterator:
+Create an iterable object by implementing @@iterator method
+i.e. Symbol.iterator, so that you can use for..of and retrieve its
+properties. retrieving the object properties and its values.
