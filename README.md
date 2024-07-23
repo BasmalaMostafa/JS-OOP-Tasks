@@ -10,7 +10,7 @@ and height properties and 2 extended methods (using prototype property) for calc
 perimeter (last day task). 
 a. Override toString() function to display a message declaring the width, height, area and 
 perimeter of the created object. 
-b. Create Class Property that counts numbers of created objects and Class method to retrieve it
+b. Create Class Property that counts numbers of created objects and Class method to retrieve it.
 
 # Task 3:
  Make proper updates in your previous code of generating Rectangle object that should inherit from 
@@ -42,4 +42,3 @@ b. test that some of array elements starts with "a".
 c. generate new array filtered from the given array with only elements that starts with "b" or "s".
 d. generate new array each element of the new array contains a string declaring that you like the give 
 fruit element e. use forEach to display all elements of the new array from previous point.
-# Task 6:
